@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+   font-family: Lexend Deca;
+   font-weight: 400;
+   background-color: hsl(0, 0%, 95%);
+   color: hsl(0, 0%, 95%);
+}
+h1{
+   font-family: Big Shoulders Display;
+   font-family: 700;
+   font-size: 30px;
+}
+p{
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 1;
+}
+/* ------button styling----- */
+button{
+   background-color:hsl(0, 0%, 95%); 
+   border-radius: 3em;
+   border: 0;
+   padding: 1em 1.7em;
+   font-size: 15px;
+   margin-top: 4em;
+}
+.orange{
+   color:hsl(31, 77%, 52%); ;
+}
+.cyan{
+   color: hsl(184, 100%, 22%);;
+}
+.darkcyan{
+   color:hsl(179, 100%, 13%); ;
+}
+/* -----Flex container styling----- */
+#mothercont{
+   display: flex;
+   width: 66%;
+   margin: 5em auto;
+}
+.sedan{
+   background-color: hsl(31, 77%, 52%);
+   border-top-left-radius: 1.3em;
+   border-bottom-left-radius: 1.3em;
+}
+.suvs{
+   background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+   background-color: hsl(179, 100%, 13%);
+   border-top-right-radius: 1.3em;
+   border-bottom-right-radius: 1.3em;
+}
+.sizepad{
+   padding: 3.5em;
+   width: 33.3%;
+}
+/* -----mobile view and tab view styling */
+@media (max-width: 800px){
+   body{
+      margin: 0;
+   }
+   #mothercont{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0
+   }
+   .sedan,.luxury{
+      border-radius: 0;
+   }
+   .sizepad{
+      padding: 4em;
+      height: 100%;
+      width: 100%;
+   }
+}
