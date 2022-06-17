@@ -75,3 +75,7 @@ button{
       width: 100%;
    }
 }
+@media (max-width){
+   #mothercont{
+	   max-width: 100vw;
+}
