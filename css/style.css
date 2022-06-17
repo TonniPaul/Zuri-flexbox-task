@@ -19,7 +19,7 @@ button{
    background-color:hsl(0, 0%, 95%); 
    border-radius: 3em;
    border-style: solid;
-   color: hsl(0, 0%, 95%);
+   font-weight: 700;
    border-color: hsl(0, 0%, 95%);
    padding: 1em 1.7em;
    font-size: 15px;
@@ -50,6 +50,7 @@ button{
 /* -----Flex container styling----- */
 #mothercont{
    display: flex;
+   max-width: 1000px;
    width: 66%;
    margin: 5em auto;
 }
@@ -89,5 +90,11 @@ button{
       padding: 4em;
       height: 100%;
       width: 100%;
+   }
+}
+@media(max-width: 1440px){
+   #mothercont{
+      width: 50%;
+      max-width: 900px;
    }
 }
