@@ -5,6 +5,10 @@ body{
    background-color: hsl(0, 0%, 95%);
    color: hsl(0, 0%, 95%);
 }
+a{
+   text-decoration: none;
+   color: hsl(0, 0%, 95%);
+}
 h1{
    font-family: Big Shoulders Display;
    font-family: 700;
@@ -13,6 +17,9 @@ h1{
 p{
    color: hsla(0, 0%, 100%, 0.75);
    line-height: 1;
+}
+footer{
+   text-align:center ;
 }
 /* ------button styling----- */
 button{
@@ -24,6 +31,10 @@ button{
    padding: 1em 1.7em;
    font-size: 15px;
    margin-top: 4em;
+}
+.btn{
+   margin: auto;
+   background-image: linear-gradient(to right, hsl(179, 100%, 13%) ,hsl(31, 77%, 52%) , hsl(184, 100%, 22%));
 }
 .orange{
    color:hsl(31, 77%, 52%); ;
@@ -52,7 +63,7 @@ button{
    display: flex;
    max-width: 1000px;
    width: 66%;
-   margin: 5em auto;
+   margin: 5em auto 1em;
 }
 .sedan{
    background-color: hsl(31, 77%, 52%);
