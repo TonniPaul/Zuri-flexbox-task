@@ -92,9 +92,9 @@ button{
       width: 100%;
    }
 }
-@media(max-width: 1440px){
+@media(min-width: 1440px){ 
    #mothercont{
       width: 50%;
       max-width: 900px;
    }
-}
+} 
