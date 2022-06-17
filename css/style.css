@@ -18,7 +18,9 @@ p{
 button{
    background-color:hsl(0, 0%, 95%); 
    border-radius: 3em;
-   border: 0;
+   border-style: solid;
+   color: hsl(0, 0%, 95%);
+   border-color: hsl(0, 0%, 95%);
    padding: 1em 1.7em;
    font-size: 15px;
    margin-top: 4em;
@@ -26,11 +28,24 @@ button{
 .orange{
    color:hsl(31, 77%, 52%); ;
 }
+.orange:hover{
+   border: 1;
+   background-color: hsl(31, 77%, 52%);
+   color: hsl(0, 0%, 95%);
+}
 .cyan{
    color: hsl(184, 100%, 22%);;
 }
+.cyan:hover{
+   background-color: hsl(184, 100%, 22%);
+   color:hsl(0, 0%, 95%);
+}
 .darkcyan{
    color:hsl(179, 100%, 13%); ;
+}
+.darkcyan:hover{
+   background-color: hsl(179, 100%, 13%);
+   color:hsl(0, 0%, 95%)
 }
 /* -----Flex container styling----- */
 #mothercont{
