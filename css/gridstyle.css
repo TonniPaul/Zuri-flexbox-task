@@ -1,5 +1,6 @@
 body{
    background-color: #585858 ;
+   background-image: url("../images/bg-intro-desktop.png");
    text-align: center;
 }
 a{
@@ -8,19 +9,22 @@ a{
 }
 #mothercont{ 
    width: 60%;
-   margin: 5em auto 2em;
+   margin: 3em auto;
 }
 .main{
    display: grid;
-   grid-template-columns: 65% 35%;
+   grid-template-columns: 2fr 1fr;
+   grid-gap: 1em;
+   grid-auto-rows: 150px;
 }
 .side{
+   margin-top: 1em;
    display: grid;
-   grid-template-columns: 50% 50%;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1em;
+   grid-auto-rows: minmax(200px, auto);
 }
-.main> div, .side> div{
-   margin: .5em;
-}
+
 .gridorange{
    background-color: #EB5020;
 }
@@ -29,23 +33,21 @@ a{
 }
 .gridgreen{
    background-color: #05AA42;
-   height: 200px;
+  
 }
 .gridsblue{
    height: inherit;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 1em;
+   grid-auto-rows: 120px;
+   
 }
-.gridsblue1{
-   height: 45%;
+.blue{
    background-color: #01AEFD;
 }
-.gridsblue2{
-   background-color: #01AEFD;
-   height: 50%;
-   margin-top: 2%;
-}
-.height{
-   height: 150px;
-}
+
+/* -----footer/button styling----- */
 footer{
    text-align: center;
 }
